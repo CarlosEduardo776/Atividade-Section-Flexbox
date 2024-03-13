@@ -1,7 +1,9 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
+
 body {
     background-color: #474c5a;
   }
@@ -16,4 +18,112 @@ body {
   background-color: #1f0b0c ;
   }
 
-  
+  .cabeçalho i {
+  font-size: 90px;
+  color: beige;
+  }
+
+  .menu-cabeçalho {
+   display: flex;
+  }
+
+.menu-cabeçalho li{
+    margin-left: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.menu-cabeçalho li a{
+    text-decoration: none; 
+    padding: 10px ; 
+    color: beige; 
+    border-radius: 5px;
+}
+
+.menu-cabeçalho li :hover {
+    transition: 1s;
+    cursor: pointer;
+    color: aqua;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px;
+    font-size: 50px;
+}
+
+
+.flex{
+    display: flex; 
+    flex-wrap: wrap; 
+    max-width: 800px ;
+    margin: 0px auto;
+    margin-bottom: 80px; 
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+    
+
+.flex img{
+    max-width: 100%;
+    display: block; 
+}
+    
+
+.flex div{
+    margin: 10px;
+    flex: 1 1 200px;
+    color: beige;
+}
+    
+.definição{
+    background-color: #b3544f ;
+    color: beige ;
+    padding: 100px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.rodapé{
+    display: flex; 
+    justify-content: space-evenly ; 
+    align-items: center ; 
+    background-color: black; 
+    padding: 100px ; 
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: none;
+ }
+
+ .menu-rodapé{
+    display: flex;
+ }
+
+ .menu-rodapé li{
+    margin-right: 20px;
+    list-style: none; 
+ }
+
+
+
+.menu-rodapé li a{
+    text-decoration: none; 
+    color: beige;
+    font-size: 20px; 
+    padding: 20px;
+}
+
+.menu-rodapé li a:hover {
+    color: aqua; 
+    transition: 0.8s;
+}
+
+.rodapé i{
+    color: black; 
+    font-size: 22px; 
+    background-color: #bdcdd0;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
