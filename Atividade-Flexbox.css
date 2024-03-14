@@ -82,7 +82,13 @@ h1 {
     color: beige ;
     padding: 100px;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
+}
+
+.definição div {
+    color: beige;
+    text-align: left;
+    margin-top: 10px;
 }
 
 .rodapé{
@@ -124,6 +130,5 @@ h1 {
     font-size: 22px; 
     background-color: #bdcdd0;
     padding: 10px;
-    
     border-radius: 10px;
 }
